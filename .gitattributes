@@ -1,0 +1,36 @@
+*.md text
+*.mdx text
+
+*.css text
+*.scss text
+
+*.ts text diff=typescript
+*.tsx text diff=typescript
+
+*.json text
+
+*.mjs text
+
+*.d.ts text
+
+*.ts text
+*.tsx text
+
+*.md linguist-language=Markdown
+*.mdx linguist-language=Markdown
+*.css linguist-language=CSS
+*.scss linguist-language=CSS
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.mjs linguist-language=JavaScript
+*.d.ts linguist-language=TypeScript
+
+node_modules/* export-ignore
+*.js export-ignore
+*.map export-ignore
+*.d.ts export-ignore
+
+*.ts text diff=typescript
+*.tsx text diff=typescript
+*.scss text diff=css
+*.css text diff=css
